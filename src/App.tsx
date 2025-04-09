@@ -1,14 +1,9 @@
-import './App.css'
+import * as React from "react";
+import "./global.css";
 
-function App() {
+const App: React.FC = () => {
+  return <div>
+    <span>あああ</span></div>;
+};
 
-  return (
-    <>
-      <div>
-          myHP
-      </div>
-    </>
-  )
-}
-
-export default App
+export default App;
